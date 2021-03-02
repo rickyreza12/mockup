@@ -4,7 +4,8 @@ For all mockup static web, or non static
 # API Spec
 - mock up report
   for the mock up report here is the api specification
-  ```[
+  ```
+  [
   '{{repeat(7)}}',
   {
     days: '{{index(0,7)}}',
@@ -74,5 +75,6 @@ For all mockup static web, or non static
       }
     ]
   }
-]
-```
+   ]
+   
+   ```

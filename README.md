@@ -1,6 +1,9 @@
 # Repo Mockup
 For all mockup static web, or non static
 
+# Link
+https://rickyreza12.github.io/mockup/
+
 # API Spec
 - mock up report
   for the mock up report here is the api specification

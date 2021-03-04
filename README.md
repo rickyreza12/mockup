@@ -20,6 +20,7 @@ https://rickyreza12.github.io/mockup/
               {
                 title: "Splinx",
                 cam: {
+                  length:  5,
                   crew: [
                     {
                       nik: 538,

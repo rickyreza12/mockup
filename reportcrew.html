@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="navigasi">Nav</div>
+  <div id="headers">Nav</div>
+  <div id="main">
+    <div>
+      <div id="search">Advance Search <span>&#9497;</span></div>
+      <div id="displayedsearch" style="display: none; width: fit-content">
+        <div style="margin: 20px">
+          <label for="bymonth"> Month</label>
+          <br />
+          <input type="date" />
+        </div>
+        <div style="margin: 20px">
+          <label for="byYear"> Year</label>
+          <br />
+          <input type="date" />
+        </div>
+        <div style="margin: 20px">
+          <!-- <label for="bymonth"> By Day</label> -->
+          <!-- <br /> -->
+          <div>
+            <label for="from" style="font-size: 15px">From </label>
+            <br />
+            <input type="date" />
+            <br />
+            <label for="from" style="font-size: 15px">To </label>
+            <br />
+            <input type="date" />
+          </div>
+        </div>
+        <div style="margin-top: 50px; cursor: pointer">search</div>
+      </div>
+    </div>
+
+    <div id="headertab">
+      <div id="weekstitle">
+        <h1 style="text-align: center">Rekap <span id="bulan"></span></h1>
+      </div>
+      <div id="weeksheader">
+        <h2 id="htitle" style="text-align: center"></h2>
+      </div>
+    </div>
+    <div id="monthly"></div>
+  </div>
+  <div id="modalemployee" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 class="headervalue">Occupation</h2>
+      </div>
+      <div class="modal-body">
+        <p>No One On Duty</p>
+        <p>Pleas try again...</p>
+      </div>
+      <div class="modal-footer">
+        <h3 class="footervalue">TRANS 7</h3>
+      </div>
+    </div>
+    <br />
+  </div>
+  <script src="js/datacrew.js"></script>
+  <script src="js/reportcrew.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@ https://rickyreza12.github.io/mockup/
 
 # API Spec
 
-#report studio
+# report studio
 
 ```
 {
@@ -26,13 +26,13 @@ https://rickyreza12.github.io/mockup/
                 ]
             }
         ],
+}
 ```
 
 # report crew
 - mock up report
   for the mock up report here is the api specification
   ```
-  [
   {
     days: 0,
     days_name: "Sunday",
@@ -76,9 +76,6 @@ https://rickyreza12.github.io/mockup/
       },
     ],
   },
-];
-
-   
-   ```
+```
    
  

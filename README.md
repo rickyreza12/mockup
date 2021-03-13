@@ -5,6 +5,30 @@ For all mockup static web, or non static
 https://rickyreza12.github.io/mockup/
 
 # API Spec
+
+#report studio
+
+```
+{
+        days: 1,
+        days_name: "Sunday",
+        month: 2,
+        month_name: "February",
+        year: 2021,
+        hourly: [
+            {
+                hours: "01:00",
+                studios: [
+                    {
+                        studio_name: "studio 1",
+                        show_name: "OVJ"
+                    }
+                ]
+            }
+        ],
+```
+
+# report crew
 - mock up report
   for the mock up report here is the api specification
   ```
@@ -56,3 +80,5 @@ https://rickyreza12.github.io/mockup/
 
    
    ```
+   
+ 

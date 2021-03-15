@@ -63,17 +63,15 @@ https://rickyreza12.github.io/mockup/
     month: 2,
     month_name: "February",
     year: 2021,
-    total_crews : {
-            cameraman: {
-                     total_cameraman : 40,
-                     cameraman_standby : 25,
-                     cameraman_remains : 5,
-             },
-             audioperson: {
-                     total_audioperson : 40,
-                     audioperson_standby : 25,
-                     audioperson_remains : 5,
-             }            
+    cameraman: {
+         total_cameraman : 40,
+         cameraman_standby : 25,
+         cameraman_remains : 5,
+    },
+    audioperson: {
+         total_audioperson : 40,
+         audioperson_standby : 25,
+         audioperson_remains : 5,
     },
     program: [
       {

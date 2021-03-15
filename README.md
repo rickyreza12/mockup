@@ -68,8 +68,6 @@ https://rickyreza12.github.io/mockup/
          cameraman_standby : 25,
          cameraman_remains : 5,
     }
-    cameraman: 20,
-    lightning: 10,
     program: [
       {
         title: "Splinx",

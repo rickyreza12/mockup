@@ -58,58 +58,50 @@ https://rickyreza12.github.io/mockup/
   for the mock up report here is the api specification
   ```
   {
-    days: 0,
-    days_name: "Sunday",
-    month: 2,
-    month_name: "February",
-    year: 2021,
-    cameraman: {
-         total_cameraman : 40,
-         cameraman_standby : 25,
-         cameraman_remains : 5,
+    "days": 1,
+    "days_name": "Monday",
+    "month": 3,
+    "month_name": "March",
+    "year": 2021,
+    "camera_pers": {
+        "total_camera_pers": 40,
+        "camera_pers_standby": 27,
+        "camera_pers_remains": 13
     },
-    audioperson: {
-         total_audioperson : 40,
-         audioperson_standby : 25,
-         audioperson_remains : 5,
+    "audio_pers": {...
     },
-    program: [
-      {
-        title: "Splinx",
-        cam: {
-          occupation: "Camera Person",
-          length: 5,
-          crew: [
-            {
-              nik: 538,
-              nama: "Odonnell Mack",
-              department: "Produksi",
-            },
-            {
-              nik: 222,
-              nama: "Williamson Vaughan",
-              department: "TSV",
-            },
-            {
-              nik: 689,
-              nama: "Elise Moses",
-              department: "Art",
-            },
-            {
-              nik: 772,
-              nama: "Russell Stokes",
-              department: "TSV",
-            },
-            {
-              nik: 329,
-              nama: "Gallegos Barlow",
-              department: "Art",
-            },
-          ],
-        },
-      },
-    ],
-  },
+    "lighting_pers": {...
+    },
+    "controlroom_pers": {...
+    },
+    "technical_producers": {...
+    },
+    "program": [
+        {
+            "title": "INLINE",
+            "cam": [...
+            ],
+            "aud": [
+                {
+                    "nik": "",
+                    "name": "",
+                    "department": "Production Services"
+                },
+                {
+                    "nik": "",
+                    "name": "",
+                    "department": "Production Services"
+                }
+            ],
+            "lig": [...
+            ],
+            "cp": [...
+            ],
+            "tp": [...
+            ]
+        }
+    ]
+}
 ```
    
  

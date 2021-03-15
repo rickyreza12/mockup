@@ -63,6 +63,13 @@ https://rickyreza12.github.io/mockup/
     month: 2,
     month_name: "February",
     year: 2021,
+    cameraman: {
+         total_cameraman : 40,
+         cameraman_standby : 25,
+         cameraman_remains : 5,
+    }
+    cameraman: 20,
+    lightning: 10,
     program: [
       {
         title: "Splinx",

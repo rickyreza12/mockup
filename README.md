@@ -18,37 +18,40 @@ https://rickyreza12.github.io/mockup/
             "hourly": [
                 {
                     "hours": 0,
-                    "studio_satu": {
-                        "studio_id": 7,
-                        "studio_name": "studio",
-                        "show_name": ""
+                    "studios": [
+                    {
+                        "title": "studio_satu"
+                        "details":{
+                                "studio_id": 7,
+                            "studio_name": "studio",
+                            "show_name": ""
+                        }
                     },
-                    "studio_tiga": {
-                        "studio_id": 8,
-                        "studio_name": "studio",
-                        "show_name": ""
+                    {
+                        "title": "studio_dua"
+                        "details":{
+                                "studio_id": 7,
+                            "studio_name": "studio",
+                            "show_name": ""
+                        }
                     },
-                    "studio_lima": {
-                        "studio_id": 18,
-                        "studio_name": "studio",
-                        "show_name": ""
+                    {
+                        "title": "studio_tiga"
+                        "details":{
+                                "studio_id": 7,
+                            "studio_name": "studio",
+                            "show_name": ""
+                        }
                     },
-                    "studio_tujuh": {
-                        "studio_id": 20,
-                        "studio_name": "studio",
-                        "show_name": ""
-                    },
-                    "studio_9": {
-                        "studio_id": 1,
-                        "studio_name": "studio",
-                        "show_name": ""
-                    },
-                    "studio_11": {
-                        "studio_id": 2,
-                        "studio_name": "studio",
-                        "show_name": "Mata Najwa"
+                    {
+                        "title": "studio_empat"
+                        "details":{
+                                "studio_id": 7,
+                            "studio_name": "studio",
+                            "show_name": ""
+                        }
                     }
-                },
+                ],
         ...
 }
 ```

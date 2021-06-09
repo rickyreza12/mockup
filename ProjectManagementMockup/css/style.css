@@ -1,0 +1,10 @@
+.header{
+    background-color: #231e23;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    padding: 10px;
+    font-size: 15px;
+}
